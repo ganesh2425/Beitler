@@ -1,0 +1,26 @@
+[
+  {
+    "id":  1,
+    "legal_name": "Alex",
+    "mc_id":"13245",
+    "fed_tax_id": "34DS67",
+    "dot": "45LHGS",
+    "scac": "abcdefgh",
+    "city": "New york",
+    "zipcode": "2658974",
+    "phone": "7987945646464",
+    "primary_contact": "Alex Daniel"
+  },
+  {
+    "id":  12,
+    "legal_name": "Alex",
+    "mc_id":"13245",
+    "fed_tax_id": "34DS67",
+    "dot": "45LHGS",
+    "scac": "abcdefgh",
+    "city": "New york",
+    "zipcode": "2658974",
+    "phone": "7987945646464",
+    "primary_contact": "Alex Daniel"
+  }
+]

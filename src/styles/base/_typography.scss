@@ -1,0 +1,9 @@
+/**
+ * Default font family, size and color
+ */
+body {
+  overflow-x: hidden;
+  font-family: $font-primary;
+  font-size: $font-base-size !important;
+  color: $color-text;
+}

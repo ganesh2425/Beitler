@@ -1,0 +1,26 @@
+[
+  {
+    "Id": 1,
+    "uom": "Pounds",
+    "transaction": "Inbound",
+    "maxvalue": 100,
+    "minvalue": 100,
+    "defvalue": 100
+  },
+  {
+    "Id": 2,
+    "uom": "Pounds",
+    "transaction": "Delivery",
+    "maxvalue": 100,
+    "minvalue": 100,
+    "defvalue": 100
+  },
+  {
+    "Id": 3,
+    "uom": "Pounds",
+    "transaction": "Delivery",
+    "maxvalue": 100,
+    "minvalue": 100,
+    "defvalue": 100
+  }
+]

@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+// Colors
+
+$color-primary: #be1e2d !default;
+$color-text: #222 !default;
+$main-bg:#ffffff;
+$red-bg:#be1e2d;
+$white:#ffffff;
+$black:#0a0a0a;
+$gray:#474242;
+$gray-light:#959595;
+$gray-lighter:#f9f8f2;
+$primary:#fcd941;
+$primary-link:#cb900a;
+$primary-light:#f2f3f5;
+$primary-blue:#0c5aa6;
+$shadow:rgba(0, 0, 0, 0.3);
+$error:#ff7070;
+$link-color: #3498db;
+$link-hover-color: #1d6fa5;
+$link-focus-color: #1d6fa5;
+$btn-common-color: #b94630;
+$btn-bg-color: #ce563f;
+$btn-shadow-color: rgba(0, 0, 0, 0.2);
+$btn-bit-bucket: #163758;
+$btn-bit-bucket-hover: #0f253c;
+$btn-dropbox-bg: #0d6aad;
+$btn-dropbox-hover: #0a568c;
+$list-group-success: #219351;
+$list-group-warning: #af700d;
+$list-group-danger: #a6372b;
+$list-group-info: #1984a5;
+$list-group-info-bg: #c7ecf8;
+$list-group-danger-bg: #f8cfcc;
+$list-group-warning-bg: #fce6c3;
+$list-group-bg: #ccf2dc;
+
+// Fonts
+$font-base-size: 14px !default;
+$font-primary: 'Open Sans',Arial,sans-serif;
+
+// Font Size: Buttons
+$font__size--button       : 12px;
+$font__size--button-small : round( $font__size--button * 0.8 ); // 10px
+$font__size--button-large : round( $font__size--button * 1.2 ); //14px
+
+// Font Size: Inputs
+$font__size--input        : 16px;
+$font__size--input-small  : 14px;
+$font__size--input-large  : 28px;
+
+// Font Size: Headings
+$font__size--h1 : 45px;
+$font__size--h2 : 35px;
+$font__size--h3 : 25px;
+$font__size--h4 : 20px;
+$font__size--h5 : 16px;
+$font__size--h6 : 14px;
+
+// 5. Fonts Weight
+// =================================
+
+$font__weight--thin        : 100;
+$font__weight--extra-light : 200;
+$font__weight--light       : 300;
+$font__weight--normal      : 400;
+$font__weight--medium      : 500;
+$font__weight--semi-bold   : 600;
+$font__weight--bold        : 700;
+$font__weight--extra-bold  : 800;
+
+// 6. Media Query Sizes
+// =================================
+
+$breakpoint__extra-large : 1400px;
+$breakpoint__large       : 991px;
+$breakpoint__medium      : 767px;
+$breakpoint__small       : 480px;
+$breakpoint__extra-small : 320px;
+
+$breakpoint-small: 768px;
+$breakpoint-medium: 992px;
+$breakpoint-large: 1024px;
+$breakpoint-wide: 1280px;
+
+// Miscellaneous
+$image-path: '/assets/images';

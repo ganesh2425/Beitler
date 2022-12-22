@@ -1,0 +1,17 @@
+@mixin min-width($breakpoint) {
+  @media screen and (min-width: #{if(type-of($breakpoint) == 'string', unquote($breakpoint), inspect($breakpoint))}) {
+    @content;
+  }
+}
+
+@mixin max-width($breakpoint) {
+  @media screen and (max-width: #{if(type-of($breakpoint) == 'string', unquote($breakpoint), inspect($breakpoint))}) {
+    @content;
+  }
+}
+
+@mixin high-res() {
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    @content;
+  }
+}

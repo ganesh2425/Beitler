@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Legal Name",
+    "type": "string"
+  },
+  {
+    "title": "MC#",
+    "type": "number"
+  },
+  {
+    "title": "Fed Tax ID",
+    "type": "number"
+  },
+  {
+    "title": "DOT#",
+    "type": "string"
+  },
+  {
+    "title": "SCAC",
+    "type": "string"
+  },
+  {
+    "title": "city",
+    "type": "string"
+  },
+  {
+    "title": "action"
+  }
+]

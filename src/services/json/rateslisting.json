@@ -1,0 +1,26 @@
+[
+  {
+    "Id": 1,
+    "customer": "name",
+    "carrier": "name",
+    "effstartdate": "12/05/2021",
+    "effenddate": "14/05/2021",
+    "status": "Active"
+  },
+  {
+    "Id": 2,
+    "customer": "name",
+    "carrier": "name",
+    "effstartdate": "09/05/2021",
+    "effenddate": "16/05/2021",
+    "status": "Active"
+  },
+  {
+    "Id": 3,
+    "customer": "name",
+    "carrier": "name",
+    "effstartdate": "10/05/2021",
+    "effenddate": "18/05/2021",
+    "status": "Active"
+  }
+]

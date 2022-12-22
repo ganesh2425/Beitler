@@ -1,0 +1,20 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- develop
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+  - checkout: self
+    submodules: true
+  - task: AzureStaticWebApp@0
+    inputs:
+      app_location: '/'
+      api_location: ''
+      output_location: ''
+      azure_static_web_apps_api_token: 66b6139566ae5aaf4ad58a9a74343c1cba3b2df24d9a95bb20ac4d1f9ed70b460-eb3774f3-c232-4256-9621-6ea0345a179101026837

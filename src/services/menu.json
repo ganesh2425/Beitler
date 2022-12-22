@@ -1,0 +1,484 @@
+[
+  {
+    "id":1,
+    "name":"MDS",
+    "code":"100",
+    "value":"MDS",
+    "display_text":"MDS",
+    "active":true,
+    "IsParentSet":1,
+    "ParentSetId":0,
+    "icon": "clipboard-list",
+    "sub_menu":[
+      {
+        "id":2,
+        "name":"Listing",
+        "code":"201",
+        "value":"listing",
+        "display_text":"Listing",
+        "active":true,
+        "IsParentSet":0,
+        "ParentSetId":1,
+        "icon": "list"
+      },
+      {
+        "id":3,
+        "name":"Entry/Upload",
+        "code":"202",
+        "value":"entry_upload",
+        "display_text":"Entry/Upload",
+        "active":true,
+        "IsParentSet":0,
+        "ParentSetId":1,
+        "icon": "upload"
+      }
+    ]
+  },
+  {
+    "id":4,
+    "name":"Inbound Projection",
+    "code":"101",
+    "value":"inbound_projection",
+    "display_text":"Inbound Projection",
+    "active":true,
+    "IsParentSet":1,
+    "ParentSetId":0,
+    "icon": "inbox",
+    "sub_menu":[
+      {
+        "id":5,
+        "name":"Listing",
+        "code":"203",
+        "value":"projection_listing",
+        "display_text":"Listing",
+        "active":true,
+        "IsParentSet":0,
+        "ParentSetId":4,
+        "icon": "list"
+      },
+      {
+        "id":6,
+        "name":"Entry/Upload",
+        "code":"204",
+        "value":"projection_entry_upload",
+        "display_text":"Entry/Upload",
+        "active":true,
+        "IsParentSet":0,
+        "ParentSetId":4,
+        "icon": "upload"
+      }
+    ]
+  },
+  {
+    "id":7,
+    "name":"Inbound",
+    "code":"102",
+    "value":"inbound",
+    "display_text":"Inbound",
+    "active":true,
+    "IsParentSet":1,
+    "ParentSetId":0,
+    "icon": "envelope-open-text",
+    "sub_menu":[
+      {
+        "id":8,
+        "name":"Listing",
+        "code":"203",
+        "value":"inbound_listing",
+        "display_text":"Listing",
+        "active":true,
+        "IsParentSet":0,
+        "ParentSetId":7,
+        "icon": "list"
+      },
+      {
+        "id":9,
+        "name":"Entry/Upload",
+        "code":"204",
+        "value":"inbound_entry_upload",
+        "display_text":"Entry/Upload",
+        "active":true,
+        "IsParentSet":0,
+        "ParentSetId":7,
+        "icon": "upload"
+      }
+    ]
+  },
+  {
+    "id":10,
+    "name":"Order/Outbound",
+    "code":"103",
+    "value":"order_outbound",
+    "display_text":"Order/Outbound",
+    "active":true,
+    "IsParentSet":1,
+    "ParentSetId":0,
+    "icon": "pallet",
+    "sub_menu":[
+      {
+        "id":11,
+        "name":"Listing",
+        "code":"204",
+        "value":"order_outbound_listing",
+        "display_text":"Listing",
+        "active":true,
+        "IsParentSet":0,
+        "ParentSetId":10,
+        "icon": "list"
+      }
+    ]
+  },
+  {
+    "id":12,
+    "name":"Delivery",
+    "code":"104",
+    "value":"delivery",
+    "display_text":"Delivery",
+    "active":true,
+    "IsParentSet":1,
+    "ParentSetId":0,
+    "icon": "truck",
+    "sub_menu":[
+      {
+        "id":13,
+        "name":"Listing",
+        "code":"204",
+        "value":"delivery_listing",
+        "display_text":"Listing",
+        "active":true,
+        "IsParentSet":0,
+        "ParentSetId":12,
+        "icon": "list"
+      }
+    ]
+  },
+  {
+    "id":14,
+    "name":"Invoice",
+    "code":"105",
+    "value":"invoice",
+    "display_text":"Invoice",
+    "active":true,
+    "IsParentSet":1,
+    "ParentSetId":0,
+    "icon": "file-invoice",
+    "sub_menu":[
+      {
+        "id":15,
+        "name":"rates",
+        "code":"204",
+        "value":"rates",
+        "display_text":"Rates",
+        "active":true,
+        "IsParentSet":1,
+        "ParentSetId":14,
+        "icon": "file-invoice-dollar",
+        "sub_menu":[
+          {
+            "id":16,
+            "name":"Rate Master",
+            "code":"204",
+            "value":"rate_master",
+            "display_text":"Rate Master",
+            "active":true,
+            "IsParentSet":0,
+            "ParentSetId":15,
+            "icon": "wallet"
+          },
+          {
+            "id":17,
+            "name":"Interline/D83",
+            "code":"204",
+            "value":"interline",
+            "display_text":"Interline/D83",
+            "active":true,
+            "IsParentSet":0,
+            "ParentSetId":15,
+            "icon": "truck-loading"
+          },
+          {
+            "id":18,
+            "name":"Fuel Surcharge",
+            "code":"204",
+            "value":"fuel_surcharge",
+            "display_text":"Fuel Surcharge",
+            "active":true,
+            "IsParentSet":0,
+            "ParentSetId":15,
+            "icon": "funnel-dollar"
+          }
+        ]
+      },
+      {
+        "id":19,
+        "name":"Accounts Payable",
+        "code":"204",
+        "value":"accounts_payable",
+        "display_text":"Accounts Payable",
+        "active":true,
+        "IsParentSet":0,
+        "ParentSetId":14,
+        "icon": "money-check-alt"
+      },
+      {
+        "id":20,
+        "name":"Accounts Receivables",
+        "code":"204",
+        "value":"accounts_receivables",
+        "display_text":"Accounts Receivables",
+        "active":true,
+        "IsParentSet":0,
+        "ParentSetId":14,
+        "icon": "hand-holding-usd"
+      }
+    ]
+  },
+  {
+    "id":21,
+    "name":"Admin Management",
+    "code":"106",
+    "value":"management",
+    "display_text":"Management",
+    "active":true,
+    "IsParentSet":1,
+    "ParentSetId":0,
+    "icon": "user-shield",
+    "sub_menu":[
+      {
+        "id":22,
+        "name":"Lookup",
+        "code":"204",
+        "value":"lookup",
+        "display_text":"Lookup",
+        "active":true,
+        "IsParentSet":0,
+        "ParentSetId":21,
+        "icon": "address-card"
+      },
+      {
+        "id":23,
+        "name":"Customers",
+        "code":"204",
+        "value":"customers",
+        "display_text":"Customers",
+        "active":true,
+        "IsParentSet":0,
+        "ParentSetId":21,
+        "icon": "user-friends"
+      },
+      {
+        "id":24,
+        "name":"Brokers",
+        "code":"204",
+        "value":"brokers",
+        "display_text":"Brokers",
+        "active":true,
+        "IsParentSet":0,
+        "ParentSetId":21,
+        "icon": "user-tie"
+      },
+      {
+        "id":25,
+        "name":"Carriers / Vendors",
+        "code":"204",
+        "value":"carriers",
+        "display_text":"Carriers / Vendors",
+        "active":true,
+        "IsParentSet":0,
+        "ParentSetId":21,
+        "icon": "truck-moving"
+      }, 
+      {
+        "id":26,
+        "name":"Stores",
+        "code":"204",
+        "value":"stores",
+        "display_text":"Stores",
+        "active":true,
+        "IsParentSet":0,
+        "ParentSetId":21,
+        "icon": "store"
+      },
+      {
+        "id":27,
+        "name":"Pool Provider",
+        "code":"204",
+        "value":"pool_provider",
+        "display_text":"Pool Provider",
+        "active":true,
+        "IsParentSet":0,
+        "ParentSetId":21,
+        "icon": "archive"
+      },
+      {
+        "id":42,
+        "name":"Corporate(BLS)",
+        "code":"204",
+        "value":"corporate_bls",
+        "display_text":"Corporate(BLS)",
+        "active":true,
+        "IsParentSet":0,
+        "ParentSetId":21,
+        "icon": "recycle"
+      },
+      {
+        "id":28,
+        "name":"Permissions",
+        "code":"204",
+        "value":"permissions",
+        "display_text":"Permissions",
+        "active":true,
+        "IsParentSet":0,
+        "ParentSetId":21,
+        "icon": "universal-access"
+      },
+      {
+        "id":29,
+        "name":"PermissionsGroup",
+        "code":"204",
+        "value":"permissions_group",
+        "display_text":"Permissions Group",
+        "active":true,
+        "IsParentSet":0,
+        "ParentSetId":21,
+        "icon": "people-carry"
+      },
+      {
+        "id":30,
+        "name":"User invitation",
+        "code":"204",
+        "value":"user_invitation",
+        "display_text":"User invitation",
+        "active":true,
+        "IsParentSet":0,
+        "ParentSetId":21,
+        "icon": "user-plus"
+      }
+    ]
+  },
+  {
+    "id":31,
+    "name":"Services",
+    "code":"107",
+    "value":"services",
+    "display_text":"Services",
+    "active":true,
+    "IsParentSet":1,
+    "ParentSetId":0,
+    "icon": "tasks",
+    "sub_menu":[
+      {
+        "id":32,
+        "name":"Ticketing",
+        "code":"204",
+        "value":"ticketing",
+        "display_text":"Ticketing",
+        "active":true,
+        "IsParentSet":0,
+        "ParentSetId":31,
+        "icon": "ticket-alt"
+      },
+      {
+        "id":33,
+        "name":"Claims",
+        "code":"204",
+        "value":"claims",
+        "display_text":"Claims",
+        "active":true,
+        "IsParentSet":0,
+        "ParentSetId":31,
+        "icon": "thumbs-up"
+      },
+      {
+        "id":34,
+        "name":"FAQ",
+        "code":"204",
+        "value":"faq",
+        "display_text":"FAQ",
+        "active":true,
+        "IsParentSet":0,
+        "ParentSetId":31,
+        "icon": "question"
+      }
+    ]
+  },
+  {
+    "id":35,
+    "name":"Notification",
+    "code":"108",
+    "value":"notification",
+    "display_text":"Notification",
+    "active":true,
+    "IsParentSet":1,
+    "ParentSetId":0,
+    "icon": "bell",
+    "sub_menu":[
+      {
+        "id":36,
+        "name":"Template",
+        "code":"204",
+        "value":"template",
+        "display_text":"Template",
+        "active":true,
+        "IsParentSet":0,
+        "ParentSetId":35,
+        "icon": "envelope-open-text"
+      },
+      {
+        "id":37,
+        "name":"Events",
+        "code":"204",
+        "value":"events",
+        "display_text":"Events",
+        "active":true,
+        "IsParentSet":0,
+        "ParentSetId":35,
+        "icon": "calendar-alt"
+      },
+      {
+        "id":38,
+        "name":"Rules",
+        "code":"204",
+        "value":"rules",
+        "display_text":"Rules",
+        "active":true,
+        "IsParentSet":0,
+        "ParentSetId":35,
+        "icon": "hand-point-right"
+      },
+      {
+        "id":39,
+        "name":"Queue",
+        "code":"204",
+        "value":"queue",
+        "display_text":"Queue",
+        "active":true,
+        "IsParentSet":0,
+        "ParentSetId":35,
+        "icon": "bars"
+      },
+      {
+        "id":40,
+        "name":"EDI Queue",
+        "code":"204",
+        "value":"edi_queue",
+        "display_text":"EDI Queue",
+        "active":true,
+        "IsParentSet":0,
+        "ParentSetId":35,
+        "icon": "copy"
+      }
+    ]
+  },
+  {
+    "id":41,
+    "name":"Jobs",
+    "code":"109",
+    "value":"jobs",
+    "display_text":"Jobs",
+    "active":true,
+    "IsParentSet":0,
+    "ParentSetId":0,
+    "icon": "briefcase"
+  }
+]

@@ -1,0 +1,212 @@
+//modal and social icons
+.modal-dialog {
+  z-index: 1100;
+  .modal-content {
+    border: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.14), 0 4px 5px 0 rgba(0, 0, 0, 0.098), 0 1px 10px 0 rgba(0, 0, 0, 0.084);
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.14), 0 4px 5px 0 rgba(0, 0, 0, 0.098), 0 1px 10px 0 rgba(0, 0, 0, 0.084);
+  }
+}
+.modal-header {
+  .close {
+    margin: 0;
+    font-size: 0;
+    speak: none;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+    font: normal normal normal 14px/1 FontAwesome;
+    opacity: 1;
+    &::before {
+      content: "\e646";
+      font-size: 16px;
+      content: "\f00d";
+      font-size: 16px;
+      color: #fff;
+    }
+    &:hover {
+      opacity: .75;
+    }
+    span {
+      display: none;
+    }
+  }
+}
+.img-circle {
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.social-widget {
+  width: 100px;
+  display: inline-block;
+}
+.social-widget-header {
+  padding: 15px;
+  text-align: center;
+  font-size: 36px;
+  color: #fff;
+}
+.social-widget-count {
+  padding: 12px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+.social-widget-facebook {
+  .social-widget-header {
+    background-color: #3B5998;
+  }
+  .social-widget-count {
+    background-color: #4264aa;
+  }
+}
+.social-widget-twitter {
+  .social-widget-header {
+    background-color: #00ACED;
+  }
+  .social-widget-count {
+    background-color: #08bbff;
+  }
+}
+.social-widget-google {
+  .social-widget-header {
+    background-color: #F86C6B;
+  }
+  .social-widget-count {
+    background-color: #f98483;
+  }
+}
+.social-widget-linkedin {
+  .social-widget-header {
+    background-color: #4875b4;
+  }
+  .social-widget-count {
+    background-color: #5982bd;
+  }
+}
+.social-widget-pinterest {
+  .social-widget-header {
+    background-color: #EC488D;
+  }
+  .social-widget-count {
+    background-color: #ee5f9b;
+  }
+}
+.social-widget-vk {
+  .social-widget-header {
+    background-color: #4B73A4;
+  }
+  .social-widget-count {
+    background-color: #5780b2;
+  }
+}
+.widget-stat {
+  .ibox-body {
+    padding: 12px 15px;
+  }
+}
+.widget-stat-icon {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  width: 60px;
+  height: 100%;
+  line-height: 100px;
+  text-align: center;
+  font-size: 30px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.static-widget {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  padding: 15px;
+  i {
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 36px;
+  }
+}
+.widget-dark-progress {
+  background: rgba(0, 0, 0, 0.1);
+  .progress-bar {
+    background-color: #e9ecef;
+  }
+}
+.widget-dark-badge {
+  background: rgba(0, 0, 0, 0.2);
+}
+.tasks-list {
+  .task-data {
+    padding-left: 25px;
+  }
+  .task-item {
+    .ui-checkbox {
+      input {
+        &:checked {
+          ~ {
+            .task-title {
+              text-decoration: line-through;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.task-actions {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -15px;
+  >a.dropdown-toggle {
+    color: #aaa;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+  }
+}
+.task-item {
+  &:hover {
+    .task-actions {
+      display: block;
+    }
+  }
+}
+
+.show .accordion-header .accordion-button{background: #dbdbdb;
+  color: #212121;
+  font-weight: 600;
+  height: 34px;}
+.main-head .accordion-button:after{
+  //background-image: url("../../assets/images/minus-solid.svg");
+  //-webkit-mask-image: url("../../assets/images/minus-solid.svg");
+  //mask-image: url("../../assets/images/minus-solid.svg");
+  height: 14px;
+  z-index: 1093;
+  color: #fff;
+  background-color: #fff;
+}
+.main-head .accordion-button{
+  background-color: #be1e2d;
+  color:#fff;
+}
+.modal-header{
+  background-color: #be1e2d;
+  color: #fff;
+  border:1px solid #be1e2d;
+}
+.btn-close {
+  color: #fff;
+  height: 14px;
+}
+.modal-90w {
+  max-width: 90%;
+}

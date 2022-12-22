@@ -1,0 +1,58 @@
+[
+  {
+    "success": true,
+    "id": 1,
+    "name": "MDS string",
+    "EffectiveFrom": "12/05/2021\t",
+    "EffectiveTo": "12/05/2021\t",
+    "Comments": "New comments",
+    "IsPPAgreed": true,
+    "IsActive": true,
+    "MDS_Stores": [
+      {
+        "id": 0,
+        "CompanyName": "string",
+        "StoreNumber": "string",
+        "FreightDescription": "string",
+        "FirstDeliveryDate": "string",
+        "DeliveryInstruction": "string",
+        "StoreAddresses": {
+          "ID": 0,
+          "Entity_Id": 0,
+          "Type": "string",
+          "Address1": "string",
+          "Address2": "string",
+          "City": "string",
+          "State": "string",
+          "Zipcode": "string",
+          "Phone": "string",
+          "Fax": "string"
+        },
+        "Contacts": [
+          {
+            "Id": 0,
+            "Entity_Id": 0,
+            "Entity_Type": "string",
+            "Type": "string",
+            "Name": "string",
+            "Title": "string",
+            "Phone": "string",
+            "Extension": "string",
+            "Mobile": "string",
+            "Email": "string",
+            "Department": 0
+          }
+        ],
+        "StoreDelivery": [
+          {
+            "id": 0,
+            "Days_id": 0,
+            "StartTime": "string",
+            "EndTime": "string",
+            "Stores_id": 0
+          }
+        ]
+      }
+    ]
+  }
+]
